@@ -1,4 +1,4 @@
-# A simple program to manage a task list
+# A simple program to manage a task list(Just listing them)
 tasks = []
 
 print("--- Your To-Do List ---")
