@@ -11,6 +11,6 @@ print("--- Emoji Translator ---")
 word = input("Type a word (happy, sad, pizza, fire, dog): ").lower()
 
 # Look up the word in our dictionary
-translation = emoji_map.get(word, "Unknown word"
+translation = emoji_map.get(word, "Unknown word")
 
 print(f"The emoji for {word} is: {translation}"
