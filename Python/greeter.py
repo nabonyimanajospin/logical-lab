@@ -1,5 +1,5 @@
 # A simple program to greet the user
-print("--- Professional Greeter ---"
+print("--- Professional Greeter ---")
 
 # 1. Get user information
 name = input("What is your name? "
