@@ -1,0 +1,27 @@
+PROJECT: To-Do List Application
+INTERN: Jospin Nabonyimana
+DATE: Thursday, 08th of January, 2026
+COMPANY: Saiket Systems - Java Development Internship
+
+ABOUT THIS PROJECT:
+A console-based task management system that allows users to 
+add, view, and mark tasks as complete. Demonstrates core OOP principles.
+
+KEY FEATURES:
+1. Task class with title and status attributes
+2. ArrayList for dynamic task storage
+3. Interactive menu system
+4. Input validation and error handling
+
+TECHNICAL IMPLEMENTATION:
+- Task.java: Represents individual tasks (OOP Classes)
+- TodoListApp.java: Main application with menu logic
+- Uses ArrayList<E> for data structure manipulation
+- Implements all required functions: add, complete, display
+
+HOW TO RUN:
+1. Open in NetBeans
+2. Run TodoListApp.java
+3. Follow menu prompts (1-4)
+
+This completes Task 3 requirements for my Java internship.

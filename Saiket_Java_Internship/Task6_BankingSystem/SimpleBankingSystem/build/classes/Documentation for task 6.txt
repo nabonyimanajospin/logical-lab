@@ -1,0 +1,63 @@
+TASK 6: BASIC BANKING SYSTEM
+============================
+INTERN: Jospin Nabonyimana
+DATE: Monday, 19th of January, 2026
+COMPANY: Saiket Systems - Java Development Internship
+
+PROJECT DESCRIPTION:
+A basic banking system that allows users to manage a bank account,
+perform transactions (deposit/withdrawal), and view account balance
+and transaction history.
+
+REQUIREMENTS MET:
+Manage accounts - Single account management
+Perform transactions - Deposit and withdrawal operations
+View balances - Display current account balance
+Transaction history - Record and display all transactions
+Object-Oriented Programming - BankAccount class implementation
+User Input Handling - Scanner for user interactions
+Exception Handling - Input validation and error handling
+
+FEATURES IMPLEMENTED:
+1. BankAccount Class with:
+   - Account number and holder name
+   - Balance tracking
+   - Transaction history list
+   - Deposit method with validation
+   - Withdraw method with balance check
+   - Display methods for balance and history
+
+2. Main Program with Menu:
+   - Deposit money
+   - Withdraw money
+   - View account balance
+   - View transaction history
+   - Exit system
+
+3. Error Handling:
+   - Invalid amount validation (must be positive)
+   - Insufficient funds check
+   - Invalid input handling
+   - Proper exception handling
+
+HOW TO RUN:
+1. Compile: javac BasicBankingSystem.java
+2. Run: java BasicBankingSystem
+3. Follow menu prompts (1-5)
+
+TESTING SCENARIOS:
+• Deposit positive amount: Should succeed
+• Deposit zero/negative: Should show error
+• Withdraw within balance: Should succeed
+• Withdraw more than balance: Should show insufficient funds error
+• Withdraw zero/negative: Should show error
+
+CODE HIGHLIGHTS:
+- Uses private fields for encapsulation
+- Uses ArrayList for transaction history
+- Uses String.format for currency formatting
+- Uses try-catch for exception handling
+- Clean menu-driven interface
+
+This completes all requirements for Task 6 of the Java Development Internship.
+All code is my original work.

@@ -1,0 +1,33 @@
+PROJECT: Text File Analyzer
+INTERN: Jospin Nabonyimana
+DATE: Friday, 16th of January, 2026.
+COMPANY: Saiket Systems - Java Development Internship
+
+ABOUT THIS PROJECT:
+This program reads a text file and analyzes its contents. It counts
+lines, words, and characters, and can search for specific words.
+
+WHAT IT DOES:
+1. Takes a text file name as input
+2. Counts total lines in the file
+3. Counts total words in the file  
+4. Counts total characters in the file
+5. Allows searching for specific words
+6. Shows how many times a word appears
+
+HOW TO USE:
+1. Create a text file (e.g., sample.txt) in the same folder
+2. Run TextFileAnalyzer.java
+3. Enter the file name when asked
+4. View the analysis results
+5. Choose to search for words if needed
+
+KEY FEATURES:
+File reading using Scanner
+Word counting by splitting lines
+Line counting with while loop
+Character counting including spaces
+Word search functionality
+Error handling for missing files
+
+This is my original work for Task 5.

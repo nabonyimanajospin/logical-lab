@@ -1,0 +1,45 @@
+PROJECT: Number Guessing Game
+INTERN: Jospin Nabonyimana
+DATE: Thursday, 08th of January, 2026
+COMPANY: Saiket Systems - Java Development Internship
+
+ABOUT THIS PROJECT:
+An interactive console game where the player guesses a randomly 
+generated number between 1-100. The game provides feedback on 
+each guess and tracks the number of attempts.
+
+KEY FEATURES:
+1. Random number generation (1-100 range)
+2. Feedback system (Too High/Too Low)
+3. Attempt tracking with limit (10 attempts max)
+4. Input validation and error handling
+5. Play-again option for multiple rounds
+
+TECHNICAL IMPLEMENTATION:
+- Uses java.util.Random for number generation
+- While loop for multiple attempts
+- Scanner for user input handling
+- Conditional statements (if-else) for game logic
+- Try-catch block for input validation
+
+CORE SKILLS DEMONSTRATED:
+✓ Random number handling
+✓ Loop implementation (while loop)
+✓ User input handling
+✓ Conditional statements
+✓ Basic game logic design
+
+HOW TO PLAY:
+1. Run NumberGuessingGame.java
+2. Guess numbers between 1-100
+3. Receive feedback (Too High/Too Low)
+4. Try to guess within 10 attempts!
+5. Choose to play again or quit
+
+TESTING SCENARIOS:
+- Normal gameplay (winning/losing)
+- Invalid inputs (text instead of numbers)
+- Out-of-range guesses (<1 or >100)
+- Exact boundary guesses (1 and 100)
+
+This is my original work for Task 4 of my Java internship.
